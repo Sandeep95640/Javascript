@@ -4,6 +4,14 @@ let score = JSON.parse(localStorage.getItem('score')) || {
   ties: 0
 };
 
+function startPlay(){
+  window.location.href='121-rock-paper-scissors.html';
+}
+
+function exitGame(){
+  window.location.href='12-rock-paper-scissors.html';
+}
+
 updateScoreElement();
 
 let isAutoPlaying = false;

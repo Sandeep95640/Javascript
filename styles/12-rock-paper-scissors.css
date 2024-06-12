@@ -2,7 +2,9 @@ body {
   background-color: rgb(25, 25, 25);
   color: white;
   font-family: Arial;
+  padding-left: 80px;
 }
+
 
 .title {
   font-size: 30px;
@@ -29,8 +31,9 @@ body {
   margin-top: 50px;
 }
 
-.score {
+.scores {
   margin-top: 60px;
+  margin-left: 60px;
 }
 
 .reset-score-button, .auto-play-button {
@@ -40,3 +43,44 @@ body {
   padding: 8px 15px;
   cursor: pointer;
 }
+
+.game{
+  padding-left: 50px;
+}
+
+.letsplay{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.results{
+  padding-left: 50px;
+}
+
+.play-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.exit-game{
+  padding: 10px 20px;
+  margin-left: 60px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+
+
